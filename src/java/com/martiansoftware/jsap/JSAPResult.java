@@ -69,7 +69,7 @@ public class JSAPResult implements ExceptionMap {
      */
     protected JSAPResult() {
         allResults = new java.util.HashMap();
-        allExceptions = new java.util.HashMap();
+        allExceptions = new java.util.LinkedHashMap();
         chronologicalErrorMessages = new java.util.LinkedList();
         qualifiedSwitches = new java.util.HashMap();
         userSpecifiedIDs = new java.util.HashSet();
